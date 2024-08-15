@@ -1,15 +1,33 @@
-import React from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import './styles.css';
 import { FaFacebookF, FaGithub, FaLine, FaExternalLinkAlt } from 'react-icons/fa';
 
 function App() {
+  const videoRef = useRef(null);
+  const [isMuted, setIsMuted] = useState(true); // ค่าเริ่มต้นเป็น true
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.muted = isMuted;
+    }
+  }, [isMuted]);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(videoRef.current.muted);
+    }
+  };
+
   return (
     <div>
-      <video id="background-video" autoPlay loop>
-        <source src="./public/video.mp4" type="video/mp4" />
+      <video id="background-video" autoPlay loop ref={videoRef}>
+        <source src="/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
+      <button onClick={toggleMute} className="mute-button">
+        {isMuted ? 'Unmute' : 'Mute'}
+      </button>
       <header>
         <nav>
           <ul>
@@ -30,7 +48,6 @@ function App() {
           </div>
         </section>
         <section id="projects">
-          
           <div className="project">
             <h2> My Project </h2>
             <h3>yugimeow</h3>
@@ -63,27 +80,19 @@ function App() {
           <h2>About Me</h2>
           <p>I am a passionate web developer with experience in creating custom Discord bots and developing web applications.</p>
           <p>Skills: Python, JavaScript, React, HTML, CSS</p>
-          
-            <a href="https://www.facebook.com/pondcomp" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <FaFacebookF />
-            </a>
-            <a href="https://line.me/ti/p/pondcomp" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <FaLine />
-            </a>
-            <a href="https://www.github.com/pondsan1412" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <FaGithub />
-            </a>
-            <a href="https://fastwork.co/user/satorn1412" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <FaExternalLinkAlt />
-            </a>
-
+          <a href="https://www.facebook.com/pondcomp" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FaFacebookF />
+          </a>
+          <a href="https://line.me/ti/p/pondcomp" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FaLine />
+          </a>
+          <a href="https://www.github.com/pondsan1412" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FaGithub />
+          </a>
+          <a href="https://fastwork.co/user/satorn1412" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FaExternalLinkAlt />
+          </a>
         </section>
-        
-          
-         
-            
-        
-       
       </main>
       <footer>
         <p>&copy; 2024 Satorn Sukkang. All rights reserved.</p>
