@@ -58,7 +58,7 @@ function App() {
           <div className="project">
             <h3>WR MK8DX bot</h3>
             <p>This project contains searching world record information from mario kart games shown player's data, social link, video clip and more</p>
-            <img src="https://private-user-images.githubusercontent.com/107555040/344447009-392e3b58-1faf-4c84-bacb-2294da68590c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM3MDM5ODMsIm5iZiI6MTcyMzcwMzY4MywicGF0aCI6Ii8xMDc1NTUwNDAvMzQ0NDQ3MDA5LTM5MmUzYjU4LTFmYWYtNGM4NC1iYWNiLTIyOTRkYTY4NTkwYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgxNVQwNjM0NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNTdmYzUwMjgxNmIzNmNjZDgwODEwNGUwYTEyODYyNTA5NzM1MDZiNzQ3YWNkZDZjOWFmMDA5ZDY0MDhiNzdhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.vGn3X8pFy6JchiQGz1l7UZhnK7BYZIYsbsPJ8CRpGho"></img>
+            <img src="https://cdn.discordapp.com/attachments/1074263724635992094/1273546794441379861/344447009-392e3b58-1faf-4c84-bacb-2294da68590c.png?ex=66bf0261&is=66bdb0e1&hm=76b982eda26a3657718b41b9548cf1ff4945467a7b2f204a349f509723d76934&"></img>
           </div>
           <div className="project">
             <h3>modguard</h3>
