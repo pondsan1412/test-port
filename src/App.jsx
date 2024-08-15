@@ -25,9 +25,7 @@ function App() {
         <source src="/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <button onClick={toggleMute} className="mute-button">
-        {isMuted ? 'Unmute' : 'Mute'}
-      </button>
+      
       <header>
         <nav>
           <ul>
@@ -37,6 +35,9 @@ function App() {
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          <button onClick={toggleMute} className="mute-button">
+            {isMuted ? 'Unmute' : 'Mute'}
+      </button>
         </nav>
       </header>
       <main>
@@ -55,9 +56,16 @@ function App() {
             <img src="https://cdn.discordapp.com/attachments/1074263724635992094/1273315286661202030/image.png?ex=66be2ac5&is=66bcd945&hm=3c75bbee2c28d08e47c038fc08e0a6f491445ac23d9135b5a484c35a2201e929&" alt="yugimeow" />
           </div>
           <div className="project">
+            <h3>WR MK8DX bot</h3>
+            <p>This project contains searching world record information from mario kart games shown player's data, social link, video clip and more</p>
+            <img src="https://private-user-images.githubusercontent.com/107555040/344447009-392e3b58-1faf-4c84-bacb-2294da68590c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM3MDM5ODMsIm5iZiI6MTcyMzcwMzY4MywicGF0aCI6Ii8xMDc1NTUwNDAvMzQ0NDQ3MDA5LTM5MmUzYjU4LTFmYWYtNGM4NC1iYWNiLTIyOTRkYTY4NTkwYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgxNVQwNjM0NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNTdmYzUwMjgxNmIzNmNjZDgwODEwNGUwYTEyODYyNTA5NzM1MDZiNzQ3YWNkZDZjOWFmMDA5ZDY0MDhiNzdhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.vGn3X8pFy6JchiQGz1l7UZhnK7BYZIYsbsPJ8CRpGho"></img>
+          </div>
+          <div className="project">
             <h3>modguard</h3>
             <p> Tracking member sleeping time</p>
             <img src="https://cdn.discordapp.com/attachments/1074263724635992094/1273315585408761906/image.png?ex=66be2b0c&is=66bcd98c&hm=8fc60f635eede856c20f4c5c053f76d57f7a08adf9454bfae63a4e0f7f31dfd0&" alt="modguard" />
+            <p> bot started to count member's sleep time. updating by edit message every 3 mins to avoid discord.gateway block</p>
+            <img src='https://cdn.discordapp.com/attachments/1074263724635992094/1273528028378697881/image.png?ex=66bef0e6&is=66bd9f66&hm=74c241015137371d8321152c4dba05527a4a348a7a4c501ba66e119b5f219142&'></img>
             <p> Translate text by detecting the source language and automatically translating it into English, while also allowing for manual language selection using commands with language codes such as en, fr, th as shown below.</p>
             <img src="https://cdn.discordapp.com/attachments/1074263724635992094/1273524520602308628/image.png?ex=66beeda2&is=66bd9c22&hm=6f014bcc923c55c05fbc4030f19721c7c20fb7e3d1337e211c8edb0cbb9c4fd2&"></img>
             <p>Auto Translate by detecting src language and translate it into english</p>
