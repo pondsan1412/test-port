@@ -56,8 +56,12 @@ function App() {
           </div>
           <div className="project">
             <h3>modguard</h3>
-            <p>Auto-translates messages to English in a specific channel and tracks member sleep time.</p>
+            <p> Tracking member sleeping time</p>
             <img src="https://cdn.discordapp.com/attachments/1074263724635992094/1273315585408761906/image.png?ex=66be2b0c&is=66bcd98c&hm=8fc60f635eede856c20f4c5c053f76d57f7a08adf9454bfae63a4e0f7f31dfd0&" alt="modguard" />
+            <p> Translate text by detecting the source language and automatically translating it into English, while also allowing for manual language selection using commands with language codes such as en, fr, th as shown below.</p>
+            <img src="https://cdn.discordapp.com/attachments/1074263724635992094/1273524520602308628/image.png?ex=66beeda2&is=66bd9c22&hm=6f014bcc923c55c05fbc4030f19721c7c20fb7e3d1337e211c8edb0cbb9c4fd2&"></img>
+            <p>Auto Translate by detecting src language and translate it into english</p>
+            <img src="https://cdn.discordapp.com/attachments/1074263724635992094/1273524802698874933/image.png?ex=66beede5&is=66bd9c65&hm=02eb2398d7dd5c1975002a85d4bfcf85c5adfb32441d061ae7ba6e7bd73bb815&" ></img>
           </div>
           <div className="project">
             <h3>SLχBots</h3>
